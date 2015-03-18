@@ -1,0 +1,40 @@
+
+- Rabbit MOM Chapter
+  - Message Broker
+  - AMQP & STOMP
+    AMQP(Default) binary protocol
+    STOMP( Text Protocol )
+
+- Install
+  - Web Management
+  - Default Exchanges
+  - Virtual Hosts
+  - Users
+  - Exchanges
+  - Queues
+  - Connections
+
+- Entities
+  - Messages
+    - Delivery Mode
+
+  - Exchanges
+    - topic , direct, fanout, headers
+
+  - Bindings
+    - bound one queue to exchange
+
+  - Queues
+    - durable ?
+    - TTL
+    - length
+    - dead letter
+    - expire
+    - exclusive ?
+    - auto delete
+    - multiple consumers same queue will 'load balance using round robin'
+
+- Default
+- RPC
+- Topic
+- Direct
